@@ -1,0 +1,79 @@
+/* 
+font-family: 'Inter', sans-serif;
+font-family: 'Roboto', sans-serif;
+primary color: #17C8D8;
+Seceondry Color: #A9CCC7;
+*/
+
+body{
+    margin: 0;
+    padding: 0 auto;
+    overflow: hidden;
+}
+.main-wrapper{
+    height: 100vh;
+    width: 100%;
+    background: url('../images/computer-store.jpg')center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    height: 100px;
+    width: 100%;
+    background-color: rgba(23, 200, 216, 0.8);
+}
+.navbar-head{
+    position: relative;
+    margin: auto;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+}
+.container{
+    height: 400px;
+    width: 25%;
+    background-color: #f1f1f1;
+    border-radius: 30px;
+}
+.header1{
+    font-family: 'Inter', sans-serif;
+    font-size: 38px;
+    font-weight: 900;
+    letter-spacing: 30cap;
+}
+.label{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+}
+.btn{
+    width: 80%;
+    background-color: #17C8D8;
+    outline: none;
+}
+.btn1{
+    width: 40%;
+    background-color: #17C8D8;
+    outline: none;
+    
+}
+.btn2{
+    width: 40%;
+    background-color: #17C8D8;
+    outline: none;
+}
+.btn1, .btn2{
+    position: relative;
+    left: 8%;
+    right: 0;
+    margin-left: 5px;
+}
+.box{
+    height: 300px;
+    width: 100vw;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+}
+.btn-danger{
+    width: 50%;
+    position: relative;
+    margin: auto;
+}
